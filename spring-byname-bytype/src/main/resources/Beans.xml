@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+    <bean id="Home" class="com.it.entity.Home"
+          autowire="byType">
+    </bean>
+
+    <!-- Definition for spellChecker bean -->
+    <bean id="dog" class="com.it.entity.Dog">
+        <property name="name" >
+            <value>xiaohuang</value>
+        </property>
+    </bean>
+
+<!--    <bean id="dog2" class="com.it.entity.Dog">-->
+<!--        <property name="name" >-->
+<!--            <value>xiaohei</value>-->
+<!--        </property>-->
+<!--    </bean>-->
+
+
+
+</beans>
